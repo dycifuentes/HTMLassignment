@@ -1,0 +1,23 @@
+h1 { color: blue;
+}
+h2 { color:blueviolet;
+}
+
+#recipe-parag {
+    color:darkslategray;
+}
+
+.my-li {
+    font-size: 24px;
+}
+
+#aside-color {
+    background-color: #b9ebf7;
+}
+
+#recipe-parag {
+    margin-top: 60px;
+    padding: 25px;
+    border: 2px solid black;
+    width: fit-content;
+}
