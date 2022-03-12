@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,400;1,900&display=swap');
+
+
 
 h1 { color: blue;
 }
 h2 { color:#ceaf59;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 400;
 }
+
+#para-article{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
 #main-title {
 font-size: 3rem;
 font-weight: bold;
 text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 #recipe-parag {
@@ -17,6 +30,7 @@ text-align: center;
     font-size: 24px;
     color:rgb(50, 50, 241);
     text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .my-li > a:hover {
@@ -27,12 +41,12 @@ color: #ceaf59;
     color:rgb(238, 75, 75);
 }
 
-
 #aside-color {
     background-color: #b9ebf7;
 }
 
 #recipe-parag {
+    font-family: 'Montserrat', sans-serif;
     margin-top: 60px;
     padding: 25px;
     border: 2px solid black;
