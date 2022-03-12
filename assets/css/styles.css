@@ -1,15 +1,32 @@
+
 h1 { color: blue;
 }
-h2 { color:blueviolet;
+h2 { color:#ceaf59;
 }
+#main-title {
+font-size: 3rem;
+font-weight: bold;
+text-align: center;
 
+}
 #recipe-parag {
     color:darkslategray;
 }
 
-.my-li {
+.my-li > a {
     font-size: 24px;
+    color:rgb(50, 50, 241);
+    text-decoration: none;
 }
+
+.my-li > a:hover {
+color: #ceaf59;
+}
+
+.my-li >a:active {
+    color:rgb(238, 75, 75);
+}
+
 
 #aside-color {
     background-color: #b9ebf7;
