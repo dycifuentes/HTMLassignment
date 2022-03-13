@@ -33,8 +33,6 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-
 .my-li > a:hover {
 color: #ceaf59;
 }
@@ -43,17 +41,13 @@ color: #ceaf59;
     color:rgb(238, 75, 75);
 }
 
-#aside-color {
-    background-color: #b9ebf7;
-}
-
 #recipe-parag {
     font-family: 'Montserrat', sans-serif;
     margin-top: 60px;
     padding: 25px;
     border: 2px solid black;
     width: fit-content;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 #top-header {
@@ -89,6 +83,42 @@ li {
     list-style: none;
 }
 
+#aside {
+    display: flex;
+    background-color: #b9ebf7;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+}
+
+#aside > p {
+    justify-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+}
+
+#aside > a{
+    justify-self: center;
+}
+
+#aside >form {
+    justify-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.first-img {
+    display: flex;
+    gap:40px;
+    justify-content: space-evenly;
+}
+
+.ul-trending {
+    display: flex;
+    justify-content: space-evenly;
+    gap:120px
+}
 /*
 *{
     outline:1px solid red;
