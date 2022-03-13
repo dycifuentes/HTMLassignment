@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,400;1,900&display=swap');
 
-
+body {
+    padding:0 36px;
+}
 
 h1 { color: blue;
 }
@@ -28,10 +30,10 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 .my-li > a {
     font-size: 24px;
-    color:rgb(50, 50, 241);
-    text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
 
 .my-li > a:hover {
 color: #ceaf59;
@@ -51,4 +53,43 @@ color: #ceaf59;
     padding: 25px;
     border: 2px solid black;
     width: fit-content;
+    margin-bottom: 0px;
 }
+
+#top-header {
+    display:flex;
+    border-bottom: 4px solid burlywood;
+    justify-content: space-between;
+}
+
+#top-ul {
+    display:flex;
+    column-gap: 20px;    
+}
+
+.main-aside {
+    display:flex;
+    border-bottom: 4px solid burlywood;
+}
+
+.main-aside > aside {
+width: 25%;
+}
+
+.main-aside >main {
+    width: 75%;
+}
+
+a {
+    color:rgb(50, 50, 241);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*
+*{
+    outline:1px solid red;
+}*/
